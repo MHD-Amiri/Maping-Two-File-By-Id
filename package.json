@@ -1,0 +1,19 @@
+{
+  "name": "mapping-two-files-by-id",
+  "version": "1.0.0",
+  "description": "mapping two files bt their id's",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MHD-Amiri/Maping-Two-Files-By-Id.git"
+  },
+  "author": "Mohammad Amin Amiri",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MHD-Amiri/Maping-Two-Files-By-Id/issues"
+  },
+  "homepage": "https://github.com/MHD-Amiri/Maping-Two-Files-By-Id#readme"
+}

@@ -79,8 +79,7 @@ fs.readFile('names.txt', "utf-8", function (err, nameData) {
                 arrPohnes,
             ))
         };
-        console.log(contactObject);
-        console.log(contactObject[1].phone.length);
+
         let information = ''
         for (let k = 0; k < contactObject.length; k++) {
             if (contactObject[k].phone.length === 1) {
@@ -93,7 +92,10 @@ fs.readFile('names.txt', "utf-8", function (err, nameData) {
         }
         console.log(information);
         fs.writeFile('information.txt', information, function (err) {
-            return err;
+            if (err) {
+                console.log("Somwthing went wrong in writing the File");
+                throw (err);
+            }
         })
     });
 });
